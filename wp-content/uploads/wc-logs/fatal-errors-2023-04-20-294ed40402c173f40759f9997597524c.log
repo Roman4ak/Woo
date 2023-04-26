@@ -1,0 +1,83 @@
+2023-04-20T15:39:09+00:00 CRITICAL Uncaught TypeError: uasort(): Argument #1 ($array) must be of type array, bool given in D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-checkout.php:304
+Stack trace:
+#0 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(304): uasort()
+#1 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(34): WC_Checkout->get_checkout_fields()
+#2 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template()
+#4 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#5 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#6 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#7 D:\OpenServer\domains\Woo\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout()
+#8 [internal function]: do_shortcode_tag()
+#9 D:\OpenServer\domains\Woo\wp-includes\shortcodes.php(227): preg_replace_callback()
+#10 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(308): do_shortcode()
+#11 D:\OpenServer\domains\Woo\wp-includes\plugin.php(205): WP_Hook->apply_filters()
+#12 D:\OpenServer\domains\Woo\wp-includes\blocks\post-content.php(54): apply_filters()
+#13 D:\OpenServer\domains\Woo\wp-includes\class-wp-block.php(258): render_block_core_post_content()
+#14 D:\OpenServer\domains\Woo\wp-includes\class-wp-block.php(244): WP_Block->render()
+#15 D:\OpenServer\domains\Woo\wp-includes\blocks.php(1051): WP_Block->render()
+#16 D:\OpenServer\domains\Woo\wp-includes\blocks.php(1089): render_block()
+#17 D:\OpenServer\domains\Woo\wp-includes\block-template.php(240): do_blocks()
+#18 D:\OpenServer\domains\Woo\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#19 D:\OpenServer\domains\Woo\wp-includes\template-loader.php(106): include('D:\\OpenServer\\d...')
+#20 D:\OpenServer\domains\Woo\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#21 D:\OpenServer\domains\Woo\index.php(17): require('D:\\OpenServer\\d...')
+#22 {main}
+  thrown in D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-checkout.php on line 304
+
+2023-04-20T15:39:19+00:00 CRITICAL Uncaught TypeError: uasort(): Argument #1 ($array) must be of type array, bool given in D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-checkout.php:304
+Stack trace:
+#0 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(304): uasort()
+#1 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(34): WC_Checkout->get_checkout_fields()
+#2 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template()
+#4 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#5 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#6 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#7 D:\OpenServer\domains\Woo\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout()
+#8 [internal function]: do_shortcode_tag()
+#9 D:\OpenServer\domains\Woo\wp-includes\shortcodes.php(227): preg_replace_callback()
+#10 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(308): do_shortcode()
+#11 D:\OpenServer\domains\Woo\wp-includes\plugin.php(205): WP_Hook->apply_filters()
+#12 D:\OpenServer\domains\Woo\wp-includes\blocks\post-content.php(54): apply_filters()
+#13 D:\OpenServer\domains\Woo\wp-includes\class-wp-block.php(258): render_block_core_post_content()
+#14 D:\OpenServer\domains\Woo\wp-includes\class-wp-block.php(244): WP_Block->render()
+#15 D:\OpenServer\domains\Woo\wp-includes\blocks.php(1051): WP_Block->render()
+#16 D:\OpenServer\domains\Woo\wp-includes\blocks.php(1089): render_block()
+#17 D:\OpenServer\domains\Woo\wp-includes\block-template.php(240): do_blocks()
+#18 D:\OpenServer\domains\Woo\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#19 D:\OpenServer\domains\Woo\wp-includes\template-loader.php(106): include('D:\\OpenServer\\d...')
+#20 D:\OpenServer\domains\Woo\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#21 D:\OpenServer\domains\Woo\index.php(17): require('D:\\OpenServer\\d...')
+#22 {main}
+  thrown in D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-checkout.php on line 304
+
+2023-04-20T17:54:14+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_shipping_zone_data() in D:\OpenServer\domains\Woo\wp-content\plugins\eduplugin\eduplugin.php:101
+Stack trace:
+#0 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(308): custom_override_checkout_fields()
+#1 D:\OpenServer\domains\Woo\wp-includes\plugin.php(205): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(300): apply_filters()
+#3 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(34): WC_Checkout->get_checkout_fields()
+#4 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template()
+#6 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#7 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#8 D:\OpenServer\domains\Woo\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#9 D:\OpenServer\domains\Woo\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout()
+#10 [internal function]: do_shortcode_tag()
+#11 D:\OpenServer\domains\Woo\wp-includes\shortcodes.php(227): preg_replace_callback()
+#12 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(308): do_shortcode()
+#13 D:\OpenServer\domains\Woo\wp-includes\plugin.php(205): WP_Hook->apply_filters()
+#14 D:\OpenServer\domains\Woo\wp-includes\blocks\post-content.php(54): apply_filters()
+#15 D:\OpenServer\domains\Woo\wp-includes\class-wp-block.php(258): render_block_core_post_content()
+#16 D:\OpenServer\domains\Woo\wp-includes\class-wp-block.php(244): WP_Block->render()
+#17 D:\OpenServer\domains\Woo\wp-includes\blocks.php(1051): WP_Block->render()
+#18 D:\OpenServer\domains\Woo\wp-includes\blocks.php(1089): render_block()
+#19 D:\OpenServer\domains\Woo\wp-includes\block-template.php(240): do_blocks()
+#20 D:\OpenServer\domains\Woo\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#21 D:\OpenServer\domains\Woo\wp-includes\template-loader.php(106): include('D:\\OpenServer\\d...')
+#22 D:\OpenServer\domains\Woo\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#23 D:\OpenServer\domains\Woo\index.php(17): require('D:\\OpenServer\\d...')
+#24 {main}
+  thrown in D:\OpenServer\domains\Woo\wp-content\plugins\eduplugin\eduplugin.php on line 101
+

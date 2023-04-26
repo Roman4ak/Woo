@@ -1,0 +1,36 @@
+2023-04-12T12:52:18+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shipping_Zones::get_zone_locations() in D:\OpenServer\domains\Woo\wp-content\plugins\eduplugin\eduplugin.php:40
+Stack trace:
+#0 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(308): my_plugin_zones_page()
+#1 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\Woo\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\Woo\wp-admin\admin.php(259): do_action()
+#4 {main}
+  thrown у D:\OpenServer\domains\Woo\wp-content\plugins\eduplugin\eduplugin.php доступно 40
+
+2023-04-12T12:53:58+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shipping_Zones::get_zone_locations() in D:\OpenServer\domains\Woo\wp-content\plugins\eduplugin\eduplugin.php:40
+Stack trace:
+#0 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(308): my_plugin_zones_page()
+#1 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\Woo\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\Woo\wp-admin\admin.php(259): do_action()
+#4 {main}
+  thrown у D:\OpenServer\domains\Woo\wp-content\plugins\eduplugin\eduplugin.php доступно 40
+
+2023-04-12T12:59:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_zones_page" not found or invalid function name in D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#1 D:\OpenServer\domains\Woo\wp-includes\plugin.php(517): WP_Hook->do_action()
+#2 D:\OpenServer\domains\Woo\wp-admin\admin.php(259): do_action()
+#3 {main}
+  thrown у D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php доступно 308
+
+2023-04-12T13:16:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_plugin_zones_page" not found or invalid function name in D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#1 D:\OpenServer\domains\Woo\wp-includes\plugin.php(517): WP_Hook->do_action()
+#2 D:\OpenServer\domains\Woo\wp-admin\admin.php(259): do_action()
+#3 {main}
+  thrown у D:\OpenServer\domains\Woo\wp-includes\class-wp-hook.php доступно 308
+
+2023-04-12T14:03:58+00:00 CRITICAL Declaration of WC_My_Shipping_Method::calculate_shipping($package) must be compatible with WC_Shipping_Method::calculate_shipping($package = []) у D:\OpenServer\domains\Woo\wp-content\plugins\eduplugin\eduplugin.php доступно 172
+

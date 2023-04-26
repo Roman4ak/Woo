@@ -1,0 +1,57 @@
+.woocommerce-shipping-fields,
+.woocommerce-additional-fields {
+    display: none;
+}
+
+.custom-map {
+    position: relative;
+    z-index: 5;
+}
+
+.gal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 30%;
+    background-color: #2f5aae;
+    z-index: 15;
+    border-radius: 50%;
+    opacity: 60%;
+    display: none;
+}
+
+.fran {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 30%;
+    height: 30%;
+    background-color: #2f5aae;
+    z-index: 15;
+    border-radius: 50%;
+    opacity: 60%;
+    display: none;
+}
+
+.zal {
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    width: 30%;
+    height: 30%;
+    background-color: #2f5aae;
+    z-index: 15;
+    border-radius: 50%;
+    opacity: 60%;
+    display: none;
+}
+
+.zone-active {
+    display: block !important;
+}
+
+.main-map {
+    border-radius: 20px;
+}
